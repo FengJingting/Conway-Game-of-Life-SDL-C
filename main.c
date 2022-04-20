@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <libgen.h>
+#include <ctype.h>
 #include "init_game.h"
+#define DEAD 0
+#define ALIVE 1
 
-
-void InitialCELL(Board* theBoard,int row,int col)
+void InitialCell(Board* theBoard,int row,int col)
 {
     int i;
     theBoard->cell=(int**)malloc(row*sizeof(int*));
@@ -13,52 +14,61 @@ void InitialCELL(Board* theBoard,int row,int col)
     theBoard->row=row;
     theBoard->col=col;
 }
-void FreeMatrix(Board* theBoard)
+void FreeCell(Board* theBoard)
 {
     int i;
     for(i=0;i<(theBoard->row);i++)
         free(theBoard->cell[i]);
     free(theBoard->cell);
 }
-void SetMatrix(Board* theBoard,int row,int col)
+void SetCell(Board* theBoard,int row,int col)
 {
-    int i,j;
-    for(i=0;i<(theBoard->row);i++)
-    {
-        for(j=0;j<(theBoard->col);j++)
-            theBoard->cell[i][j]=i+j;
+    char line[1000];
+    FILE *file = fopen("initial.txt", "r");
+    fgets(line,1000,file);
+    char c = fgetc(file);
+    int cur_row = 0;
+    int cur_col = 0;
+    while(c != EOF){
+        switch(c){
+            case '0':
+                theBoard->cell[cur_row][cur_col] = DEAD;
+                break;
+            case '1':
+                theBoard->cell[cur_row][cur_col] = ALIVE;
+                break;
+        }
+        if(c != '\n'){
+            cur_col++;
+            if(cur_col>=col){
+                cur_col= 0;
+                cur_row++;
+            }
+        }
+        c = fgetc(file);
     }
 }
-void PrintMatrix(Board* theBoard)
+void PrintCell(Board* theBoard)
 {
+    printf("\n");
     int i,j;
     for(i=0;i<(theBoard->row);i++)
     {
         for(j=0;j<(theBoard->col);j++)
-            printf(" %3.0f",theBoard->cell[i][j]);
+            printf("%d",theBoard->cell[i][j]);
         printf("\n");
     }
+    printf("\n");
 }
 Board* create_game (const char *file,Board *theBoard){
-    char row[5];
     fscanf(file,"%d %d %d",&theBoard->row,&theBoard->col,&theBoard->step);
     printf("There are %d rows,%d cols, %d steps\n",theBoard->row,theBoard->col,theBoard->step);
-    InitialCELL(theBoard,theBoard->row,theBoard->col);
-    SetMatrix(theBoard,theBoard->row,theBoard->col);
-    PrintMatrix(theBoard);
+    InitialCell(theBoard,theBoard->row,theBoard->col);
+    SetCell(theBoard,theBoard->row,theBoard->col);
     return theBoard;
 }
 
 int main(int argc, char **argv ) {
-//    FILE *map;
-//    if (argv[0] == NULL) {
-//        printf("Enter an input map.\n");
-//        return -1;
-//    }
-//    map = fopen(argv[0],"r");
-//    if(map==NULL){
-//        return -1;
-//    }
     FILE *map;
     map = fopen("initial.txt", "r");
     if(!map){
@@ -68,7 +78,13 @@ int main(int argc, char **argv ) {
     Board *theBoard = (Board *) malloc(sizeof(Board));
     create_game(map,theBoard);
     fclose(map);
-    FreeMatrix(theBoard);
+    int cycle = 0;
+    while(cycle<theBoard->step){
+        printf("GAME%d\n",cycle);
+        PrintCell(UpdateCell(theBoard));
+        cycle++;
+    }
+    FreeCell(theBoard);
     return 0;
 
 }

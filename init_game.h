@@ -8,10 +8,6 @@ typedef struct _Board{
     int **cell;
 }Board;
 
-typedef struct
-{
-    double **mat;
-    int m;
-    int n;
-}Matrix;
 Board* create_game (const char *file,Board *theBoard);
+Board* UpdateCell(Board* theBoard);
+void PrintCell(Board* theBoard);
