@@ -11,3 +11,6 @@ typedef struct _Board{
 Board* create_game (const char *file,Board *theBoard);
 Board* UpdateCell(Board* theBoard);
 void PrintCell(Board* theBoard);
+void InitialCell(Board* theBoard,int row,int col);
+void FreeCell(Board* theBoard);
+void SetCell(Board* theBoard,int col);

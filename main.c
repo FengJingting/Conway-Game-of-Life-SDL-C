@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
 #include "init_game.h"
 #define DEAD 0
 #define ALIVE 1
@@ -21,7 +20,7 @@ void FreeCell(Board* theBoard)
         free(theBoard->cell[i]);
     free(theBoard->cell);
 }
-void SetCell(Board* theBoard,int row,int col)
+void SetCell(Board* theBoard,int col)
 {
     char line[1000];
     FILE *file = fopen("initial.txt", "r");
@@ -64,7 +63,7 @@ Board* create_game (const char *file,Board *theBoard){
     fscanf(file,"%d %d %d",&theBoard->row,&theBoard->col,&theBoard->step);
     printf("There are %d rows,%d cols, %d steps\n",theBoard->row,theBoard->col,theBoard->step);
     InitialCell(theBoard,theBoard->row,theBoard->col);
-    SetCell(theBoard,theBoard->row,theBoard->col);
+    SetCell(theBoard,theBoard->col);
     return theBoard;
 }
 
