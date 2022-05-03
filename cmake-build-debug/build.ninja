@@ -61,8 +61,8 @@ build CMakeFiles/CW2.dir/init_game.c.obj: C_COMPILER__CW2_Debug D$:/clion/CW2/in
   OBJECT_DIR = CMakeFiles\CW2.dir
   OBJECT_FILE_DIR = CMakeFiles\CW2.dir
 
-build CMakeFiles/CW2.dir/game.c.obj: C_COMPILER__CW2_Debug D$:/clion/CW2/game.c || cmake_object_order_depends_target_CW2
-  DEP_FILE = CMakeFiles\CW2.dir\game.c.obj.d
+build CMakeFiles/CW2.dir/play_game.c.obj: C_COMPILER__CW2_Debug D$:/clion/CW2/play_game.c || cmake_object_order_depends_target_CW2
+  DEP_FILE = CMakeFiles\CW2.dir\play_game.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\CW2.dir
   OBJECT_FILE_DIR = CMakeFiles\CW2.dir
@@ -81,7 +81,7 @@ build CMakeFiles/CW2.dir/view_game.c.obj: C_COMPILER__CW2_Debug D$:/clion/CW2/vi
 #############################################
 # Link the executable CW2.exe
 
-build CW2.exe: C_EXECUTABLE_LINKER__CW2_Debug CMakeFiles/CW2.dir/main.c.obj CMakeFiles/CW2.dir/init_game.c.obj CMakeFiles/CW2.dir/game.c.obj CMakeFiles/CW2.dir/view_game.c.obj
+build CW2.exe: C_EXECUTABLE_LINKER__CW2_Debug CMakeFiles/CW2.dir/main.c.obj CMakeFiles/CW2.dir/init_game.c.obj CMakeFiles/CW2.dir/play_game.c.obj CMakeFiles/CW2.dir/view_game.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CW2.dir
