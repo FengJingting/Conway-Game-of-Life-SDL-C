@@ -1,12 +1,12 @@
-//
-// Created by udii on 2022-04-16.
-//
-
-#include "play_game.h"
 #include "init_game.h"
-#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <SDL.h>
+#include <time.h>
+#include <stdlib.h>
 
-Board* UpdateCell(Board* theBoard){
+void update(Board *theBoard)
+{
     int i,j;
     const int movDir[8][2] = {{-1, -1}, {-1, 0}, {-1, 1},
                               {0, -1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}};
@@ -44,5 +44,4 @@ Board* UpdateCell(Board* theBoard){
             }
         }
     }
-    return  theBoard;
 }

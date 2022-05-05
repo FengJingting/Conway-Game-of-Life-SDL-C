@@ -1,16 +1,23 @@
-//
-// Created by udii on 2022-04-16.
-//
-typedef struct _Board{
-    int col;
-    int row;
-    int step;
-    int **cell;
+#include <SDL.h>
+#define DEF_W theBoard->info.w;
+#define DEF_H theBoard->info.h;
+
+// struct of board
+typedef struct _Board
+{
+    int **cell;		 			 // dynamic array of cell
+    int row;				     // row of board
+    int col;					 // col of board
+    int step;                    // iteration step
+    int delay;					 // SDL Delay
+    SDL_DisplayMode info;		 // Screen info: Freq, width, height
+    int cellSize;				 // [NOT IMPLEMENTED] In pixels
 }Board;
 
-int create_game (const char *file,Board *theBoard);
-Board* UpdateCell(Board* theBoard);
+void InitialCell(Board *theBoard,FILE *file);
+void FreeCell(Board *theBoard);
+void SetCell(Board *theBoard);
 void PrintCell(Board* theBoard);
-void InitialCell(Board* theBoard,int row,int col);
-void FreeCell(Board* theBoard);
-void SetCell(Board* theBoard,int col);
+void update(Board *theBoard);
+Board *init_game();
+void draw(Board *theBoard, SDL_Renderer *renderer);

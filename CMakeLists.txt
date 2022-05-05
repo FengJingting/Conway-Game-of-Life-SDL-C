@@ -3,4 +3,4 @@ project(CW2 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CW2 main.c init_game.c init_game.h play_game.c play_game.h view_game.c view_game.h)
+add_executable(CW2 main.c init_game.c init_game.h play_game.c view_game.c)
