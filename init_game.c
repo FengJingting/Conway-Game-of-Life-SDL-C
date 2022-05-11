@@ -8,7 +8,7 @@
 */
 void InitialCell(Board *theBoard,FILE *file)
 {
-    fscanf(file, "%d %d %d %d %d", &theBoard->row, &theBoard->col, &theBoard->step,&theBoard->delay,&theBoard->cellSize);
+    fscanf(file, "%d %d %d %d", &theBoard->row, &theBoard->col,&theBoard->delay,&theBoard->cellSize);
     int i;
     theBoard->cell = (int **)malloc(theBoard->row * sizeof(int *));
     for (i = 0; i < theBoard->row; i++)
@@ -83,6 +83,34 @@ void PrintCell(Board* theBoard)
     printf("\n");
 }
 
+/* Name: optionChoice
+   Function: check if the input is valid, if not, return 0
+*/
+int optionChoice() {
+    int option = -1;
+    char line[80];
+    // read in the current line as a string
+    fgets(line,80,stdin);
+    // atoi() converts string to integer, returns 0 if could not convert
+    option = (int)atoi(line);
+    return option;
+}
+
+/* Name: input_step
+   Input: the pointer of Board
+   Function: ask user to input the step value, if it is invalid, ask them to input again.
+*/
+int input_step(Board *theBoard){
+    printf("Please enter the iteration steps you want(step>0):");
+    int step = optionChoice();
+    if (step==0){
+        printf("Invalid step!");
+        return 1;
+    }else{
+        theBoard->step = step;
+        return 0;
+    };
+}
 /* Name: init_game()
    Function: init game
 */
@@ -98,6 +126,10 @@ Board *init_game()
     {
         printf("File not exit!");
         exit(-1);
+    }
+    int step = input_step(theBoard);
+    while(step){
+        step = input_step(theBoard);
     }
     InitialCell(theBoard,map);
     SetCell(theBoard);
