@@ -15,6 +15,23 @@ void InitialCell(Board *theBoard,FILE *file)
         theBoard->cell[i] = (int *)malloc(theBoard->col * sizeof(int));
 }
 
+/* Name: InitialCell_byclick
+   Input: the pointer of Board
+   Function: use malloc to set memorry for cell board
+*/
+void InitialCell_byclick(Board *theBoard)
+{
+    int i,j;
+    theBoard->cell = (int **)malloc(theBoard->row * sizeof(int *));
+    for (i = 0; i < theBoard->row; i++)
+        theBoard->cell[i] = (int *)malloc(theBoard->col * sizeof(int));
+    for(i = 0; i < theBoard->row; i++){
+        for(j = 0; j < theBoard->col; j++){
+            theBoard->cell[i][j] = 0;
+        }
+    }
+}
+
 /* Name: FreeCell
    Input: the pointer of Board
    Function: free the malloc memorry
@@ -134,5 +151,24 @@ Board *init_game()
     InitialCell(theBoard,map);
     SetCell(theBoard);
     fclose(map);
+    return theBoard;
+}
+
+/* Name: init_game_byclick
+   Function: init_game_byclick
+*/
+Board *init_game_byclick()
+{
+    Board *theBoard = (Board *)malloc(sizeof(Board)); // Allocate theBoard as pointer
+    SDL_GetCurrentDisplayMode(0, &theBoard->info);			 // Get theBoard info
+    theBoard->row = 20;
+    theBoard->col = 20;
+    theBoard->delay = 1000;
+    theBoard->cellSize = 30;
+    int step = input_step(theBoard);
+    while(step){
+        step = input_step(theBoard);
+    }
+    InitialCell_byclick(theBoard);
     return theBoard;
 }
