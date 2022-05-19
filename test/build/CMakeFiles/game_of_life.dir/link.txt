@@ -1,0 +1,1 @@
+/usr/bin/cc -std=c99 -fdump-rtl-expand -g -rdynamic CMakeFiles/game_of_life.dir/main.c.o CMakeFiles/game_of_life.dir/init_game.c.o CMakeFiles/game_of_life.dir/play_game.c.o -o game_of_life 

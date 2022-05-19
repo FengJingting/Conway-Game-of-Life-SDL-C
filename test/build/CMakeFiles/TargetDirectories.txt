@@ -1,0 +1,8 @@
+/home/fjt/桌面/cw2/test/build/CMakeFiles/game_of_life.dir
+/home/fjt/桌面/cw2/test/build/CMakeFiles/unit_test.dir
+/home/fjt/桌面/cw2/test/build/CMakeFiles/edit_cache.dir
+/home/fjt/桌面/cw2/test/build/CMakeFiles/rebuild_cache.dir
+/home/fjt/桌面/cw2/test/build/CMakeFiles/list_install_components.dir
+/home/fjt/桌面/cw2/test/build/CMakeFiles/install.dir
+/home/fjt/桌面/cw2/test/build/CMakeFiles/install/local.dir
+/home/fjt/桌面/cw2/test/build/CMakeFiles/install/strip.dir

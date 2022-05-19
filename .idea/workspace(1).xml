@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="CW2" targetName="CW2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b37157b-8768-4cbd-8006-536b82549d63" name="变更" comment="V1.2 complete the file part of game of life">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CW2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CW2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/initial.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/initial.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/play_game.c" beforeDir="false" afterPath="$PROJECT_DIR$/play_game.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="27sHEtkoyfA8LOodDnycWmn0H1a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="structure.view.defaults.are.configured" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CW2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CW2" TARGET_NAME="CW2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CW2" RUN_TARGET_NAME="CW2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1b37157b-8768-4cbd-8006-536b82549d63" name="变更" comment="" />
+      <created>1650101765254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650101765254</updated>
+      <workItem from="1650101767192" duration="4310000" />
+      <workItem from="1650273700580" duration="9555000" />
+      <workItem from="1650373777971" duration="5883000" />
+      <workItem from="1650451298945" duration="6089000" />
+      <workItem from="1650462743890" duration="2116000" />
+      <workItem from="1650521139233" duration="1341000" />
+      <workItem from="1650709326050" duration="10230000" />
+      <workItem from="1650887890316" duration="3382000" />
+      <workItem from="1651030184951" duration="1041000" />
+      <workItem from="1651476149782" duration="1707000" />
+      <workItem from="1651581319334" duration="951000" />
+      <workItem from="1651630271374" duration="11793000" />
+      <workItem from="1651747918311" duration="2732000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit, create the structure of cell board">
+      <created>1650359466884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650359466884</updated>
+    </task>
+    <task id="LOCAL-00002" summary="V1.0 partly complete the logic of game of life">
+      <created>1650456036647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456036647</updated>
+    </task>
+    <task id="LOCAL-00003" summary="V1.0 partly complete the logic of game of life">
+      <created>1650710749576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650710749576</updated>
+    </task>
+    <task id="LOCAL-00004" summary="V1.3 complete the logic part of game of life">
+      <created>1650854901158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650854901158</updated>
+    </task>
+    <task id="LOCAL-00005" summary="V1.1 complete the logic part of game of life">
+      <created>1650855075065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650855075065</updated>
+    </task>
+    <task id="LOCAL-00006" summary="V1.2 complete the file part of game of life">
+      <created>1651581404367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651581404367</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit, create the structure of cell board" />
+    <MESSAGE value="V1.0 partly complete the logic of game of life" />
+    <MESSAGE value="V1.3 complete the logic part of game of life" />
+    <MESSAGE value="V1.1 complete the logic part of game of life" />
+    <MESSAGE value="V1.2 complete the file part of game of life" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.2 complete the file part of game of life" />
+  </component>
+</project>
