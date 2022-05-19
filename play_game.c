@@ -1,13 +1,14 @@
 #include "init_game.h"
 #include <stdio.h>
 #include <string.h>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <time.h>
 #include <stdlib.h>
 
+
 void update(Board *theBoard)
 {
-    int i,j;
+int i,j;
     const int movDir[8][2] = {{-1, -1}, {-1, 0}, {-1, 1},
                               {0, -1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}};
     for(i=0;i<theBoard->row;i++){
