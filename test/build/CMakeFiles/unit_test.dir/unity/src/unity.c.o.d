@@ -1,7 +1,7 @@
 CMakeFiles/unit_test.dir/unity/src/unity.c.o: \
- /home/fjt/桌面/cw2/test/unity/src/unity.c /usr/include/stdc-predef.h \
- /home/fjt/桌面/cw2/test/unity/src/unity.h \
- /home/fjt/桌面/cw2/test/unity/include/unity_internals.h \
+ /home/fjt/下载/CW2/test/unity/src/unity.c /usr/include/stdc-predef.h \
+ /home/fjt/下载/CW2/test/unity/src/unity.h \
+ /home/fjt/下载/CW2/test/unity/include/unity_internals.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

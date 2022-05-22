@@ -53,10 +53,10 @@ RM = /snap/cmake/1082/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fjt/桌面/cw2/test
+CMAKE_SOURCE_DIR = /home/fjt/下载/CW2/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fjt/桌面/cw2/test/build
+CMAKE_BINARY_DIR = /home/fjt/下载/CW2/test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game_of_life.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/main.c.o: CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/main.c.o: ../main.c
 CMakeFiles/game_of_life.dir/main.c.o: CMakeFiles/game_of_life.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fjt/桌面/cw2/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/game_of_life.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/main.c.o -MF CMakeFiles/game_of_life.dir/main.c.o.d -o CMakeFiles/game_of_life.dir/main.c.o -c /home/fjt/桌面/cw2/test/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fjt/下载/CW2/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/game_of_life.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/main.c.o -MF CMakeFiles/game_of_life.dir/main.c.o.d -o CMakeFiles/game_of_life.dir/main.c.o -c /home/fjt/下载/CW2/test/main.c
 
 CMakeFiles/game_of_life.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/game_of_life.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fjt/桌面/cw2/test/main.c > CMakeFiles/game_of_life.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fjt/下载/CW2/test/main.c > CMakeFiles/game_of_life.dir/main.c.i
 
 CMakeFiles/game_of_life.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/game_of_life.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fjt/桌面/cw2/test/main.c -o CMakeFiles/game_of_life.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fjt/下载/CW2/test/main.c -o CMakeFiles/game_of_life.dir/main.c.s
 
 CMakeFiles/game_of_life.dir/init_game.c.o: CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/init_game.c.o: ../init_game.c
 CMakeFiles/game_of_life.dir/init_game.c.o: CMakeFiles/game_of_life.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fjt/桌面/cw2/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/game_of_life.dir/init_game.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/init_game.c.o -MF CMakeFiles/game_of_life.dir/init_game.c.o.d -o CMakeFiles/game_of_life.dir/init_game.c.o -c /home/fjt/桌面/cw2/test/init_game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fjt/下载/CW2/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/game_of_life.dir/init_game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/init_game.c.o -MF CMakeFiles/game_of_life.dir/init_game.c.o.d -o CMakeFiles/game_of_life.dir/init_game.c.o -c /home/fjt/下载/CW2/test/init_game.c
 
 CMakeFiles/game_of_life.dir/init_game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/game_of_life.dir/init_game.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fjt/桌面/cw2/test/init_game.c > CMakeFiles/game_of_life.dir/init_game.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fjt/下载/CW2/test/init_game.c > CMakeFiles/game_of_life.dir/init_game.c.i
 
 CMakeFiles/game_of_life.dir/init_game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/game_of_life.dir/init_game.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fjt/桌面/cw2/test/init_game.c -o CMakeFiles/game_of_life.dir/init_game.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fjt/下载/CW2/test/init_game.c -o CMakeFiles/game_of_life.dir/init_game.c.s
 
 CMakeFiles/game_of_life.dir/play_game.c.o: CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/play_game.c.o: ../play_game.c
 CMakeFiles/game_of_life.dir/play_game.c.o: CMakeFiles/game_of_life.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fjt/桌面/cw2/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/game_of_life.dir/play_game.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/play_game.c.o -MF CMakeFiles/game_of_life.dir/play_game.c.o.d -o CMakeFiles/game_of_life.dir/play_game.c.o -c /home/fjt/桌面/cw2/test/play_game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fjt/下载/CW2/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/game_of_life.dir/play_game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/play_game.c.o -MF CMakeFiles/game_of_life.dir/play_game.c.o.d -o CMakeFiles/game_of_life.dir/play_game.c.o -c /home/fjt/下载/CW2/test/play_game.c
 
 CMakeFiles/game_of_life.dir/play_game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/game_of_life.dir/play_game.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fjt/桌面/cw2/test/play_game.c > CMakeFiles/game_of_life.dir/play_game.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fjt/下载/CW2/test/play_game.c > CMakeFiles/game_of_life.dir/play_game.c.i
 
 CMakeFiles/game_of_life.dir/play_game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/game_of_life.dir/play_game.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fjt/桌面/cw2/test/play_game.c -o CMakeFiles/game_of_life.dir/play_game.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fjt/下载/CW2/test/play_game.c -o CMakeFiles/game_of_life.dir/play_game.c.s
 
 # Object files for target game_of_life
 game_of_life_OBJECTS = \
@@ -125,7 +125,7 @@ game_of_life: CMakeFiles/game_of_life.dir/init_game.c.o
 game_of_life: CMakeFiles/game_of_life.dir/play_game.c.o
 game_of_life: CMakeFiles/game_of_life.dir/build.make
 game_of_life: CMakeFiles/game_of_life.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fjt/桌面/cw2/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable game_of_life"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fjt/下载/CW2/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable game_of_life"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game_of_life.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/game_of_life.dir/clean:
 .PHONY : CMakeFiles/game_of_life.dir/clean
 
 CMakeFiles/game_of_life.dir/depend:
-	cd /home/fjt/桌面/cw2/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fjt/桌面/cw2/test /home/fjt/桌面/cw2/test /home/fjt/桌面/cw2/test/build /home/fjt/桌面/cw2/test/build /home/fjt/桌面/cw2/test/build/CMakeFiles/game_of_life.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fjt/下载/CW2/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fjt/下载/CW2/test /home/fjt/下载/CW2/test /home/fjt/下载/CW2/test/build /home/fjt/下载/CW2/test/build /home/fjt/下载/CW2/test/build/CMakeFiles/game_of_life.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game_of_life.dir/depend
 

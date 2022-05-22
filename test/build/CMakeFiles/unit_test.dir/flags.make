@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/fjt/桌面/cw2/test/unity/include
+C_INCLUDES = -I/home/fjt/下载/CW2/test/unity/include
 
 C_FLAGS = -std=c99 -fdump-rtl-expand -g
 

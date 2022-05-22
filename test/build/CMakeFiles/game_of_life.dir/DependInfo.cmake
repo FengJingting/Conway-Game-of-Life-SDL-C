@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fjt/桌面/cw2/test/init_game.c" "CMakeFiles/game_of_life.dir/init_game.c.o" "gcc" "CMakeFiles/game_of_life.dir/init_game.c.o.d"
-  "/home/fjt/桌面/cw2/test/main.c" "CMakeFiles/game_of_life.dir/main.c.o" "gcc" "CMakeFiles/game_of_life.dir/main.c.o.d"
-  "/home/fjt/桌面/cw2/test/play_game.c" "CMakeFiles/game_of_life.dir/play_game.c.o" "gcc" "CMakeFiles/game_of_life.dir/play_game.c.o.d"
+  "/home/fjt/下载/CW2/test/init_game.c" "CMakeFiles/game_of_life.dir/init_game.c.o" "gcc" "CMakeFiles/game_of_life.dir/init_game.c.o.d"
+  "/home/fjt/下载/CW2/test/main.c" "CMakeFiles/game_of_life.dir/main.c.o" "gcc" "CMakeFiles/game_of_life.dir/main.c.o.d"
+  "/home/fjt/下载/CW2/test/play_game.c" "CMakeFiles/game_of_life.dir/play_game.c.o" "gcc" "CMakeFiles/game_of_life.dir/play_game.c.o.d"
   )
 
 # Targets to which this target links.

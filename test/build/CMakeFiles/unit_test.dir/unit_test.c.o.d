@@ -1,7 +1,7 @@
 CMakeFiles/unit_test.dir/unit_test.c.o: \
- /home/fjt/桌面/cw2/test/unit_test.c /usr/include/stdc-predef.h \
- /home/fjt/桌面/cw2/test/unity.h \
- /home/fjt/桌面/cw2/test/unity/include/unity_internals.h \
+ /home/fjt/下载/CW2/test/unit_test.c /usr/include/stdc-predef.h \
+ /home/fjt/下载/CW2/test/unity/include/unity.h \
+ /home/fjt/下载/CW2/test/unity/include/unity_internals.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -42,5 +42,5 @@ CMakeFiles/unit_test.dir/unit_test.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/fjt/桌面/cw2/test/init_game.h /usr/include/stdlib.h \
+ /home/fjt/下载/CW2/test/init_game.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h

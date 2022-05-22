@@ -5,13 +5,13 @@
 // struct of board
 typedef struct _Board
 {
-	int **cell;		 			 // dynamic array of cell
-	int row;				         // row of board
-	int col;					 // col of board
-	int step;                    			 // iteration step
-	int delay;					 // SDL Delay
-	SDL_DisplayMode info;		 		 // Screen info: Freq, width, height
-	int cellSize;				 	 // [NOT IMPLEMENTED] In pixels
+    int **cell;		 			 // dynamic array of cell
+    int row;				         // row of board
+    int col;					 // col of board
+    int step;                    			 // iteration step
+    int delay;					 // SDL Delay
+    SDL_DisplayMode info;		 		 // Screen info: Freq, width, height
+    int cellSize;				 	 // [NOT IMPLEMENTED] In pixels
 }Board;
 
 //initial cell

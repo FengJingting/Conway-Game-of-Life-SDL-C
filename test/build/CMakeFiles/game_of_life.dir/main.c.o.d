@@ -1,4 +1,4 @@
-CMakeFiles/game_of_life.dir/main.c.o: /home/fjt/桌面/cw2/test/main.c \
+CMakeFiles/game_of_life.dir/main.c.o: /home/fjt/下载/CW2/test/main.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -23,4 +23,4 @@ CMakeFiles/game_of_life.dir/main.c.o: /home/fjt/桌面/cw2/test/main.c \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/fjt/桌面/cw2/test/init_game.h
+ /home/fjt/下载/CW2/test/init_game.h
